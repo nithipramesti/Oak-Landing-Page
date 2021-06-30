@@ -1,1 +1,219 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #4c5f5b;
+  width: 100vw;
+}
+
+body nav,
+body section,
+body header {
+  width: 100%;
+}
+
+body h1,
+body h2,
+body h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #4c5f5b;
+  margin-bottom: 30px;
+}
+
+body nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 80px;
+}
+
+body nav #logo {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 32px;
+  border: solid 3px #4c5f5b;
+  padding: 0 7px;
+  line-height: 110%;
+  text-decoration: none;
+  color: inherit;
+}
+
+body nav menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav menu li {
+  list-style: none;
+}
+
+body nav menu li a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+body nav menu li + li {
+  margin-left: 40px;
+}
+
+body nav::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  border-bottom: solid 1px #4c5f5b;
+  width: 100vw;
+  opacity: 0.2;
+}
+
+body .section-dark {
+  background-color: #4c5f5b;
+  color: #fdfffe;
+}
+
+body .section-dark h1,
+body .section-dark h2,
+body .section-dark h3 {
+  color: #fdfffe;
+}
+
+body .section-light {
+  background-color: #f7f6f4;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 200px 170px;
+  font-size: 15px;
+  color: #93908d;
+}
+
+body .section-light h2 {
+  font-size: 30px;
+}
+
+body .section-light p {
+  line-height: 150%;
+}
+
+body header {
+  width: 700px;
+  margin: 170px auto 0 auto;
+  text-align: center;
+  padding: 60px 0 10px 0;
+}
+
+body header p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+body header h1 {
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+body #section-1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: solid 1px #4c5f5b;
+  padding-bottom: 2px;
+  margin-top: 20px;
+  color: #4c5f5b;
+}
+
+body #section-2 {
+  padding: 150px 0;
+}
+
+body #section-2 h2 {
+  font-size: 33px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+body #section-3 {
+  position: relative;
+}
+
+body #section-3 p {
+  width: 420px;
+}
+
+body #section-3 a {
+  color: #4c5f5b;
+}
+
+body #section-3 input[type="text"],
+body #section-3 input[type="email"],
+body #section-3 textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #93908d;
+  width: 100%;
+  height: 35px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+body #section-3 textarea {
+  height: 80px;
+}
+
+body #section-3 input[type="button"] {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fdfffe;
+  background-color: #556e44;
+  border: none;
+  padding: 15px 22px;
+}
+
+body #section-3 #section-3a {
+  position: absolute;
+  top: -50px;
+  right: 40px;
+  width: 250px;
+  background-color: #fdfffe;
+  padding: 30px;
+}
+
+body #section-3 #section-3a h3 {
+  font-size: 22px;
+  color: #556e44;
+}
+
+body #section-3 #section-3a p {
+  width: 100%;
+  font-size: 11px;
+}
+
+body #section-3 #section-3a ul {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+body #section-3 #section-3a ul li + li {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
